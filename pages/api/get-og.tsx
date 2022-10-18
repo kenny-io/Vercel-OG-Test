@@ -19,7 +19,7 @@ export default function () {
           justifyContent: "center",
         }}
       >
-        Hello world!
+        Dynamic OG Generation
       </div>
     ),
     {
