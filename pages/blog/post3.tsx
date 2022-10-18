@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <meta
           name="description"
           property="og:image"
-          content="https://dynamic-ogs.vercel.app/api/get-og"
+          content="https://dynamic-qok6hllc3-kennyio.vercel.app/api/blog-ogs?title=Post3"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
