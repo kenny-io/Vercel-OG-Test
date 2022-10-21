@@ -12,6 +12,12 @@
   align-items: center;
 }
 
+.content {
+  padding: 20px;
+  margin: 32px;
+  font-size: large;
+}
+
 .footer {
   display: flex;
   flex: 1;

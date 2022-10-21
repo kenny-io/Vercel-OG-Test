@@ -1,9 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../../styles/Home.module.css";
 
-const Home: NextPage = () => {
+const Post2: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -19,34 +18,25 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to blog post 2</h1>
 
-        <p>
+        <p className={styles.content}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
           dignissimos odio iusto porro at tempore sed nemo aliquid consequuntur
           maxime ad fugiat dolore commodi similique, excepturi laudantium
-          dolorem. Dolor, ducimus.
-        </p>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque illum
-          alias nisi quos deserunt tempore at nulla ex laboriosam, voluptatum
-          vero hic sunt pariatur, eius, id itaque fugiat dolores incidunt.
+          dolorem. Dolor, ducimus. Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Distinctio repellendus provident quo sint rem
+          voluptatibus ab dignissimos, ipsum maxime quos dolores expedita
+          officiis velit eum nulla quia, laboriosam esse eius!
+          <br /> <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Atque illum alias nisi quos deserunt tempore at nulla ex laboriosam,
+          voluptatum vero hic sunt pariatur, eius, id itaque fugiat dolores
+          incidunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Inventore ducimus hic porro. Perferendis rerum tenetur eligendi
+          exercitationem distinctio. Facere voluptatibus iure repudiandae
+          maiores numquam ad impedit reiciendis dicta dignissimos blanditiis.
         </p>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   );
 };
 
-export default Home;
+export default Post2;
